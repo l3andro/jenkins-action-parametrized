@@ -1,6 +1,6 @@
 # action.yml
 name: jenkins-action-parametrized
-author: Antoni Florit Homar
+author: Leandro Alves Morilha
 description: github action, to be able to run jenkins jobs remotely with or without parameters
 inputs:
   url:
@@ -22,7 +22,7 @@ inputs:
   parameters:
     description: 'Jenkins Parameters'
     required: true
-    default: 'test,test2'
+    default: 'key1=value1,key2=value2'
 outputs:
   response:
     description: 'Jenkins cURL response'

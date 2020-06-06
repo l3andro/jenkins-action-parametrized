@@ -1,9 +1,5 @@
 # GITHUB jenkins action parametrized
 
-[![Travis][travis-image]][travis-url]
-![License][license-image]
-![Issues][issues-image]
-
 ## USAGE
 
 ### GitHub Actions
@@ -12,7 +8,7 @@
 
 ##### `jenkins`
 
-**Required** url  Parameter. Default `"https://toniflorithomar.cat"`.
+**Required** url  Parameter. Default `"https://jenkins.example.com"`.
 **Required** user Parameter. Default `"test"`.
 **Required** token Parameter. Default `"test"`.
 **Required** job Parameter. Default `"/job/test"`.
